@@ -41,7 +41,7 @@ class MyQueue<T> {
   }
 
   public boolean isEmpty() {
-    if(stackOne.empty && stackTwo.empty){
+    if(stackOne.empty() && stackTwo.empty()){
       return true;
     }else{
       return false;
