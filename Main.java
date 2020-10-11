@@ -26,10 +26,15 @@ class Main {
     }
     return Integer.valueOf(stack.pop());
   }
+  //4. Valid Parentheses: Given a string containing just the characters '(', ')', '{', '}', '[' and ']', write a function that returns a boolean indicating whether or not the input string is valid.
 
+  //    The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+  public static boolean validParenthes(string)
 
   public static void main(String[] args) {
     String[] input = {"2", "1", "+", "3", "*"};
     System.out.print(reversePolishNotation(input));
   }
 }
+
+ 
